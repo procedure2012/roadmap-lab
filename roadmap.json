@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Single sign-on for the admin console",
+    "description": "Enterprise customers keep asking for SAML/OIDC login on the admin console. It unblocks several large deals and is a fairly contained change.",
+    "impact": "high",
+    "effort": "low"
+  },
+  {
+    "title": "Real-time collaboration on documents",
+    "description": "Let multiple users edit the same document at once with live cursors. High demand from our top accounts; the sync layer is a moderate effort.",
+    "impact": "high",
+    "effort": "medium"
+  },
+  {
+    "title": "Rewrite the billing engine",
+    "description": "Replace the legacy billing engine with a metered, usage-based system. Very valuable but a large multi-quarter undertaking touching many services.",
+    "impact": "high",
+    "effort": "high"
+  },
+  {
+    "title": "Localized number and date formatting",
+    "description": "Format numbers, currencies, and dates according to the user's locale. Nice for international users but requires a sweeping change across every view.",
+    "impact": "medium",
+    "effort": "high"
+  },
+  {
+    "title": "Keyboard shortcuts for common actions",
+    "description": "Add keyboard shortcuts for navigation and the most common actions. Solid quality-of-life win that a single engineer can ship quickly.",
+    "impact": "medium",
+    "effort": "low"
+  },
+  {
+    "title": "Dark mode theme",
+    "description": "Offer an optional dark theme. Frequently requested cosmetic enhancement; moderate amount of CSS work.",
+    "impact": "low",
+    "effort": "medium"
+  },
+  {
+    "title": "Redesign the empty-state illustrations",
+    "description": "Refresh the empty-state illustrations across the app. Purely cosmetic polish that would take a good chunk of design and engineering time.",
+    "impact": "low",
+    "effort": "high"
+  }
+]
